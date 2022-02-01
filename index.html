@@ -18,10 +18,10 @@
     <nav id="navbar">
       <div class="myicono"><i class="fa fa-bars" aria-hidden="true"></i></div>
       <ul class="lista-sm">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="acercade.html">Acerca de</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/servicios.html">Servicios</a></li>
+        <li><a href="/acercade.html">Acerca de</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
       </ul>
     </nav>
     <div id="content">
@@ -94,9 +94,19 @@
     <script>
       $(document).ready(function () {
         //ponemos codigo javascript que utiliza jquery
+        configurarInicio();
         $(".myicono").click(function (e) {
           $("#navbar ul").toggleClass("lista-sm");
         });
+
+        function configurarInicio() {
+          var urlPath = window.location.pathname;
+          console.log(urlPath);
+          $("nav a").each(function () {
+            console.log($(this));
+            var href = $(this).attr;
+          });
+        }
       });
     </script>
   </body>
