@@ -65,27 +65,32 @@ img {
   margin: 0 auto;
   background-color: #fff;
   padding: 2%;
+  outline: 1px dashed red;
 }
 #content header {
   height: 120px;
   padding: 10px 20px;
   background-color: #ddd;
   border-radius: 1em;
+  outline: 1px dashed red;
 }
 #principal {
   width: 40%;
   float: left;
   padding: 5px;
+  outline: 1px dashed red;
 }
 #secundario {
   width: 40%;
   float: left;
   padding: 5px;
+  outline: 1px dashed red;
 }
 #content aside {
   width: 20%;
   float: left;
   padding: 5px;
+  outline: 1px dashed red;
 }
 #content footer {
   clear: both;
@@ -94,6 +99,7 @@ img {
   text-align: center;
   height: 100px;
   padding: 25px;
+  outline: 1px dashed red;
 }
 @media screen and (max-width: 820px) {
   #content {
