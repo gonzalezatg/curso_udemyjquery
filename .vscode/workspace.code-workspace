@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\Python_learning"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Diseño_web"
+  }
+}
